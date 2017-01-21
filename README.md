@@ -1,5 +1,7 @@
 # attempt
 
+[![Build Status](https://travis-ci.org/esphen/attempt.svg?branch=master)](https://travis-ci.org/esphen/attempt)
+
 Attempt is a small library for easily running a massive amount of tests with
 different arguments.
 
