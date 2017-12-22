@@ -1,18 +1,23 @@
 {
   "name": "attempt-test",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Easily running a massive amount of tests with different arguments",
   "author": "Espen Henriksen",
   "license": "MIT",
   "main": "lib/attempt.js",
   "scripts": {
     "build": "babel src --out-dir lib",
+    "prepare": "npm run build",
     "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/esphen/attempt.git"
   },
+  "files": [
+    "src",
+    "lib"
+  ],
   "keywords": [
     "test",
     "unit",
