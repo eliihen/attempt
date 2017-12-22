@@ -4,7 +4,7 @@
   "description": "Easily running a massive amount of tests with different arguments",
   "author": "Espen Henriksen",
   "license": "MIT",
-  "main": "lib/attempt.js",
+  "main": "src/attempt.js",
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "jest --coverage"
